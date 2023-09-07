@@ -1,1 +1,1 @@
-# house-of-gambling
+# [house-of-gambling](https://shchuka-vladimir.github.io/house-of-gambling/)
