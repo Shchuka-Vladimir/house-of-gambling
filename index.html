@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>house of gambling </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    >
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha512-HaoDYc3PGduguBWOSToNc0AWGHBi2Y432Ssp3wNIdlOzrunCtB2qq6FrhtPbo+PlbvRbyi86dr5VQx61eg/daQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="menu-mask" onclick="closeMenu()"></div>
+      <div class="dropdown-mask hide" onclick="closeDropdown(event)"></div>
+      <div class="circle-mask"></div>
+      <header class="header">
+        <nav class="nav menu">
+          <ul class="list list-menu">
+            <li class="item-mobile">
+              <a class="link" href="#">About us</a>
+            </li>
+            <li class="item-mobile">
+              <a class="link" href="#">Brands</a>
+            </li>
+            <li class="item-mobile">
+              <a class="link" href="#">Commissions</a>
+            </li>
+            <li class="item-mobile"><a class="link" href="#">News</a></li>
+            <li class="item-mobile">
+              <a class="link" href="#">Contact us</a>
+            </li>
+            <li class="item-mobile">
+              <a class="link" href="#">Careers</a>
+            </li>
+          </ul>
+          <div class="buttons-mobile">
+            <button class="button button-mobile">LOG IN</button>
+            <button class="button button-mobile">SIGN UP</button>
+          </div>
+        </nav>
+        <div class="logo"></div>
+        <nav class="nav">
+          <ul class="list header-list">
+            <li><a class="link" href="#">About us</a></li>
+            <li><a class="link" href="#">Brands</a></li>
+            <li><a class="link" href="#">Commissions</a></li>
+            <li><a class="link" href="#">News</a></li>
+            <li><a class="link" href="#">Contact us</a></li>
+            <li><a class="link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <div class="header-buttons">
+          <div class="select button">
+            <img
+              class="icon-planet"
+              src="./images/icon-planet.svg"
+              alt="icon planet"
+            >
+            <span class="select-header">EN</span>
+            <div class="select-mask" onclick="toggleOption(event)"></div>
+            <ul class="dropdown dropdown-hide">
+              <li class="option" onclick="selectLanguage(event)">EN</li>
+              <li class="option" onclick="selectLanguage(event)">RU</li>
+            </ul>
+          </div>
+          <button class="button button-authorization">LOG IN</button>
+          <button class="button button-authorization">SIGN UP</button>
+          <div class="button button-menu" onclick="openMenu()">
+            <div class="icon-menu"></div>
+            <div class="icon-menu"></div>
+            <div class="icon-menu"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="oval-mask"></div>
+        <div class="title-container">
+          <h1 class="title">
+            <span class="title-text">HOUSE OF</span>
+            <span class="title-text">GAMBLING</span>
+          </h1>
+          <h2 class="subtitle">Raise your ROI with direct advertiser</h2>
+          <button class="button button-title">BECOME A PARTNER</button>
+        </div>
+        <div class="banner">
+          <div class="banner-mask"></div>
+          <div class="banner-line banner-line-left">
+            <img class="chip" src="./images/shield.svg" alt="chip shield">
+            <img
+              class="chip-in-border show"
+              src="./images/dollar.svg"
+              alt="chip dollar"
+            >
+            <img
+              class="chip-in-border hide"
+              src="./images/dollar-rotate.svg"
+              alt="chip dollar"
+            >
+            <img class="chip" src="./images/soccer.svg" alt="chip soccer" >
+            <img class="chip" src="./images/m-green.svg" alt="chip m green" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+            <img
+              class="chip-in-border show"
+              src="./images/dollar.svg"
+              alt="chip dollar"
+            >
+            <img
+              class="chip-in-border hide"
+              src="./images/dollar-rotate.svg"
+              alt="chip dollar"
+            >
+            <img class="chip" src="./images/soccer.svg" alt="chip soccer" >
+            <img class="chip" src="./images/m-green.svg" alt="chip m green" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+          </div>
+          <div class="banner-line banner-line-center">
+            <img class="chip" src="./images/m-white.svg" alt="chip m white" >
+            <img class="chip" src="./images/timer.svg" alt="chip timer" >
+            <img class="chip" src="./images/crown.svg" alt="chip crown" >
+            <img
+              class="chip-in-border show"
+              src="./images/world.svg"
+              alt="chip world"
+            >
+            <img
+              class="chip-in-border hide"
+              src="./images/world-rotate.svg"
+              alt="chip world"
+            >
+            <img class="chip" src="./images/m-white.svg" alt="chip m white" >
+            <img class="chip" src="./images/timer.svg" alt="chip timer" >
+            <img class="chip" src="./images/crown.svg" alt="chip crown" >
+            <img
+              class="chip-in-border show"
+              src="./images/world.svg"
+              alt="chip world"
+            >
+            <img
+              class="chip-in-border hide"
+              src="./images/world-rotate.svg"
+              alt="chip world"
+            >
+          </div>
+          <div class="banner-line banner-line-right">
+            <img
+              class="chip-in-border show"
+              src="./images/crown-in-border.svg"
+              alt="chip crown"
+            >
+            <img class="chip" src="./images/m-blue.svg" alt="chip m blue" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+            <img class="chip" src="./images/soccer.svg" alt="chip soccer" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+            <img class="chip" src="./images/crown.svg" alt="chip crown" >
+            <img class="chip" src="./images/m-blue.svg" alt="chip m blue" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+            <img class="chip" src="./images/soccer.svg" alt="chip soccer" >
+            <img class="chip" src="./images/shield.svg" alt="chip shield" >
+          </div>
+        </div>
+        <div class="blog">
+          <h2 class="blog-title">BLOG</h2>
+          <div class="blog-container">
+            <div
+              data-simplebar
+              data-simplebar-auto-hide="false"
+              class="blog-content"
+            >
+              <a
+                class="link article"
+                href="https://www.netmeister.org/blog/futurama.html"
+              >
+                <p class="article-text">
+                  If Programming Languages Were Futurama Characters
+                </p>
+                <p class="article-date">09.05.2022</p>
+              </a>
+              <a class="link article" href="">
+                <p class="article-text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+                <p class="article-date">10.02.2023</p>
+              </a>
+              <a class="link article" href="">
+                <p class="article-text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+                <p class="article-date">10.02.2023</p>
+              </a>
+              <a class="link article" href="">
+                <p class="article-text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+                <p class="article-date">10.02.2023</p>
+              </a>
+              <a class="link article" href="">
+                <p class="article-text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+                <p class="article-date">10.02.2023</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <ul class="nav list footer-list">
+          <li><a class="link footer-link" href="#">Terms & Conditions</a></li>
+          <li><a class="link footer-link" href="#">Cookies</a></li>
+          <li><a class="link footer-link" href="#">Contacts</a></li>
+          <li><a class="link footer-link" href="#">Careers</a></li>
+          <li><a class="link footer-link" href="#">Brand Guide</a></li>
+        </ul>
+        <div class="socials">
+          <div class="socials-title">Our social media:</div>
+          <ul class="list socials-buttons">
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/twitter.svg"
+                  alt="twitter"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="gradient"
+                      x1="32"
+                      y1="-1.90735e-06"
+                      x2="-5.64706"
+                      y2="9.41176"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#478BF9" />
+                      <stop offset="1" stop-color="#9DADF2" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/facebook.svg"
+                  alt="facebook"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/instagram.svg"
+                  alt="instagram"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/linkedIn.svg"
+                  alt="linkedIn"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/youtube.svg"
+                  alt="youtube"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/tiktok.svg"
+                  alt="tiktok"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img
+                  class="img-social"
+                  src="./images/telegram.svg"
+                  alt="telegram"
+                >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="link social" href="">
+                <img class="img-social" src="./images/vk.svg" alt="vk" >
+                <svg
+                  class="svg-social"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    class="path-social"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 16C0 24.8202 7.17648 32 16 32C24.8202 32 32 24.8202 32 16C32 7.17982 24.8202 0 16 0C7.17984 0 0 7.17982 0 16ZM5.94191 4.96936C8.59784 2.54552 12.1292 1.06554 16 1.06554C19.8696 1.06554 23.4 2.54462 26.0557 4.96715L24.8681 6.1547C22.5199 4.03823 19.4105 2.75 16 2.75C12.5883 2.75 9.47794 4.03912 7.12944 6.15689L5.94191 4.96936ZM4.96751 5.94395C2.54476 8.59964 1.06554 12.1302 1.06554 16C1.06554 19.8694 2.54451 23.3997 4.96688 26.0553L6.15441 24.8678C4.03812 22.5196 2.75 19.4104 2.75 16C2.75 12.5893 4.03837 9.47974 6.15505 7.13149L4.96751 5.94395ZM5.94122 27.03C8.59723 29.4542 12.1289 30.9344 16 30.9344C19.8692 30.9344 23.3992 29.4557 26.0548 27.0337L24.8672 25.8461C22.5191 27.9621 19.4101 29.25 16 29.25C12.5879 29.25 9.47731 27.9606 7.12874 25.8425L5.94122 27.03ZM30.9345 16C30.9345 19.8714 29.454 23.4033 27.0295 26.0593L25.842 24.8718C27.9604 22.5232 29.25 19.4123 29.25 16C29.25 12.5881 27.9607 9.47761 25.8428 7.12907L27.0303 5.94154C29.4543 8.5975 30.9345 12.129 30.9345 16Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+<script src="./js/dropdown.js"></script>
+<script src="./js/menu.js"></script>
+  <script src="./js/smoothscroll.js"></script>
+  </body>
+</html>
